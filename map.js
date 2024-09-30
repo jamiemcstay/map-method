@@ -37,3 +37,10 @@ const students = [
     skill: 'CSS'
   },
 ];
+
+//return array containing name and id
+
+let studentsWithIds = students.map(student => [student.name, student.id]);
+console.log(studentsWithIds);
+
+()
